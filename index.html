@@ -50,7 +50,7 @@
     
     <div class="text-center w-full md:w-1/2 px-2 sm:px-4">
       <h2 class="text-blue-400 font-mono tracking-widest uppercase text-xs sm:text-sm mb-3 sm:mb-4">
-        Software Development Student
+        Web Development
       </h2>
     
       <h1 class="text-black text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-black tracking-tighter leading-tight mb-4 sm:mb-6">
@@ -108,8 +108,8 @@
           <img src="images/4201.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60 group-hover:opacity-100">
           <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
           <div class="absolute bottom-4 sm:bottom-6 left-4 sm:left-6">
-            <h3 class="text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl font-black text-white group-hover:text-orange-400 transition-colors">Nom Nom</h3>
-            <p class="text-slate-300 text-xs sm:text-sm xl:text-base opacity-0 group-hover:opacity-100 transition-opacity">Python Game</p>
+            <h3 class="text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl font-black text-white group-hover:text-orange-400 transition-colors">M-Vox</h3>
+            <p class="text-slate-300 text-xs sm:text-sm xl:text-base opacity-0 group-hover:opacity-100 transition-opacity">Audio Transcriber</p>
           </div>
         </a>
 
@@ -117,8 +117,8 @@
           <img src="images/4207.jpg" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60 group-hover:opacity-100">
           <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
           <div class="absolute bottom-4 sm:bottom-6 left-4 sm:left-6">
-            <h3 class="text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl font-black text-white group-hover:text-emerald-400 transition-colors">Godot Game</h3>
-            <p class="text-slate-300 text-xs sm:text-sm xl:text-base opacity-0 group-hover:opacity-100 transition-opacity">GdScript Engine</p>
+            <h3 class="text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl font-black text-white group-hover:text-emerald-400 transition-colors">Skillpath</h3>
+            <p class="text-slate-300 text-xs sm:text-sm xl:text-base opacity-0 group-hover:opacity-100 transition-opacity">Internship Project</p>
           </div>
         </a>
       </div>
@@ -148,46 +148,51 @@
         </div>
       </div>
 
-      <div id="nomnom-detail" class="pt-12 sm:pt-16 md:pt-20 mb-20 sm:mb-24 md:mb-32 border-t border-white/5 scroll-mt-20 sm:scroll-mt-24">
+      <div id="MVox-detail" class="pt-12 sm:pt-16 md:pt-20 mb-20 sm:mb-24 md:mb-32 border-t border-white/5 scroll-mt-20 sm:scroll-mt-24">
         <div class="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-12 xl:gap-16 2xl:gap-20 items-center px-4 sm:px-6 xl:px-12 2xl:px-20">
           <div class="w-full lg:w-2/5 order-2 lg:order-1 px-2 sm:px-0">
-            <span class="text-orange-400 font-mono text-xs sm:text-sm xl:text-base tracking-widest uppercase">Python Development</span>
-            <h2 class="text-2xl sm:text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl font-black text-white mt-2 mb-4 sm:mb-6">Nom Nom Game</h2>
+            <span class="text-orange-400 font-mono text-xs sm:text-sm xl:text-base tracking-widest uppercase">Web Development</span>
+            <h2 class="text-2xl sm:text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl font-black text-white mt-2 mb-4 sm:mb-6">M-Vox</h2>
             <p class="text-slate-400 leading-relaxed text-sm sm:text-base xl:text-lg 2xl:text-xl">
-              A 2D game developed using Pygame. I implemented efficient game loops and collision logic to manage spawning food and obstacles.
+              A web base audio transriber that utlizes open source models along with practices like concurency,lazy loading, html catching. The Transcriber uses the users WebGpu to ensure the privacy of their audios and be accessible offline once downloaded.
             </p>
           </div>
           <div class="relative group rounded-2xl sm:rounded-3xl overflow-hidden bg-slate-900 shadow-2xl w-full lg:w-3/5 border border-white/10 order-1 lg:order-2">
-            <img id="nomnom-display" src="images/4201.jpg" class="w-full h-auto min-h-[250px] sm:min-h-[350px] md:max-h-[600px] lg:min-h-[500px] xl:min-h-[600px] object-contain mx-auto transition-all duration-500">
+            <img id="MVox-display" src="images/mvox1.png" class="w-full h-auto min-h-[250px] sm:min-h-[350px] md:max-h-[600px] lg:min-h-[500px] xl:min-h-[600px] object-contain mx-auto transition-all duration-500">
             <div class="absolute bottom-3 sm:bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 p-1.5 sm:p-2 bg-black/40 backdrop-blur-md rounded-xl sm:rounded-2xl flex gap-1.5 sm:gap-2 border border-white/10 z-10">
-              <img src="images/4201.jpg" onclick="changeImage('nomnom', 'images/4201.jpg')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-white/20 object-cover">
-              <img src="images/4200.jpg" onclick="changeImage('nomnom', 'images/4200.jpg')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-transparent object-cover">
-              <img src="images/4202.jpg" onclick="changeImage('nomnom', 'images/4202.jpg')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-transparent object-cover">
+              <img src="images/mvox1.png" onclick="changeImage('MVox', 'images/mvox1.png')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-white/20 object-cover">
+              <img src="images/mvox2.png" onclick="changeImage('MVox', 'images/mvox2.png')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-white/20 object-cover">
+              <img src="images/mvox3.png" onclick="changeImage('MVox', 'images/mvox3.png')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-white/20 object-cover">
+               <img src="images/mvox4.png" onclick="changeImage('MVox', 'images/mvox4.png')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-white/20 object-cover">
+               
             </div>
           </div>
         </div>
       </div>
     
-      <div id="godot-detail" class="pt-12 sm:pt-16 md:pt-20 mb-20 sm:mb-24 md:mb-32 border-t border-white/5 scroll-mt-20 sm:scroll-mt-24">
+      <div id="Skillpath-detail" class="pt-12 sm:pt-16 md:pt-20 mb-20 sm:mb-24 md:mb-32 border-t border-white/5 scroll-mt-20 sm:scroll-mt-24">
         <div class="flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-12 xl:gap-16 2xl:gap-20 items-center px-4 sm:px-6 xl:px-12 2xl:px-20">
-          <div class="relative group rounded-2xl sm:rounded-3xl overflow-hidden bg-slate-800 shadow-2xl w-full lg:w-3/5 border border-white/10">
-            <img id="godot-display" src="images/4207.jpg" class="w-full h-auto min-h-[250px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[500px] xl:min-h-[600px] object-contain transition-all duration-500">
+          
+            
+            <div class="relative group rounded-2xl sm:rounded-3xl overflow-hidden bg-slate-800 shadow-2xl w-full lg:w-3/5 border border-white/10">
+            <img id="Skillpath-display" src="images/sp1.png" class="w-full h-auto min-h-[250px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[500px] xl:min-h-[600px] object-contain transition-all duration-500">
         
             <div class="absolute bottom-3 sm:bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 p-1.5 sm:p-2 bg-black/40 backdrop-blur-md rounded-xl sm:rounded-2xl flex gap-1.5 sm:gap-2 border border-white/10 z-10">
-              <img src="images/4207.jpg" onclick="changeImage('godot', 'images/4207.jpg')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-white/20 object-cover">
-              <img src="images/4206.jpg" onclick="changeImage('godot', 'images/4206.jpg')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-transparent object-cover">
-            </div>
+              <img src="images/sp1.png" onclick="changeImage('Skillpath', 'images/sp1.png')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-white/20 object-cover">
+              <img src="images/sp2.png" onclick="changeImage('Skillpath', 'images/sp2.png')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-white/20 object-cover">
+              <img src="images/sp3.png" onclick="changeImage('Skillpath', 'images/sp3.png')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-white/20 object-cover">
+            <img src="images/sp4.png" onclick="changeImage('Skillpath', 'images/sp4.png')" class="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 rounded-lg cursor-pointer hover:scale-110 hover:opacity-100 opacity-50 transition border border-white/20 object-cover">
+               </div>
           </div>
      
-          <div class="w-full lg:w-2/5 px-2 sm:px-0">
-            <span class="text-blue-400 font-mono text-xs sm:text-sm xl:text-base tracking-widest uppercase">Godot Development</span>
-            <h2 class="text-2xl sm:text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl font-black text-white mt-2 mb-4 sm:mb-6">Godot Game</h2>
-            <span class="text-blue-400 font-mono text-xs sm:text-sm xl:text-base tracking-widest uppercase"> GdScript | IbisPaint </span>
-         
-            <p class="text-sm sm:text-base xl:text-lg 2xl:text-xl mt-3 sm:mt-4 leading-relaxed">
-              I developed a 2D game in Godot to explore advanced game architecture and visual effects. I implemented a Finite State Machine (FSM) to handle complex character behaviors and used Singletons (Autoloads) for persistent global data management across levels. The project also features custom 2D Shaders for enhanced visuals, efficient Scene Management, and optimized Sprite Sheet animations to ensure smooth performance.
+          <div class="w-full lg:w-2/5 order-2 lg:order-1 px-2 sm:px-0">
+            <span class="text-orange-400 font-mono text-xs sm:text-sm xl:text-base tracking-widest uppercase">Internship Project</span>
+            <h2 class="text-2xl sm:text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl font-black text-white mt-2 mb-4 sm:mb-6">Skillpath</h2>
+            <p class="text-slate-400 leading-relaxed text-sm sm:text-base xl:text-lg 2xl:text-xl">
+              Co-Develope a Job portal platform that has 3 user level super admin, employer, and applicant. the portal was developed using laravel, php, sql, js, bootstrap, git, github, cpanel.
             </p>
           </div>
+            
         </div>
       </div>
     </div>
@@ -220,9 +225,9 @@
           </div>
           <h3 class="text-lg sm:text-xl xl:text-2xl font-bold text-white mb-3 sm:mb-4">Web Stack</h3>
           <ul class="space-y-1.5 sm:space-y-2 text-slate-400 text-xs sm:text-sm xl:text-base">
-            <li>• PHP (CodeIgniter)</li>
+            <li>• PHP (CodeIgniter,Laravel)</li>
             <li>• Tailwind & Bootstrap</li>
-            <li>• HTML5 & CSS3</li>
+            <li>• HTML5, CSS3 & Js</li>
             <li>• MVC Architecture</li>
           </ul>
         </div>
@@ -247,9 +252,9 @@
           <h3 class="text-lg sm:text-xl xl:text-2xl font-bold text-white mb-3 sm:mb-4">Productivity</h3>
           <ul class="space-y-1.5 sm:space-y-2 text-slate-400 text-xs sm:text-sm xl:text-base">
             <li>• MS Office Applications</li>
-            <li>• Computer Literacy</li>
-            <li>• IbisPaint (Art)</li>
-            <li>• Version Control</li>
+            <li>• Ai promt engineering(AIM method)</li>
+            <li>• Aisprite (Art)</li>
+            <li>• Version Control(Git & Github)</li>
           </ul>
         </div>
       </div>
