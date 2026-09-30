@@ -31,7 +31,7 @@ window.addEventListener('scroll', () => {
 const galleryData = {
     ecomx: ["images/4196.png", "images/4197.png", "images/4198.png", "images/4199.jpg"],
     MVox: ["images/mvox1.png", "images/mvox2.png", "images/mvox3.png","images/mvox4.png"],
-    Skillpath: ["images/sp1","images/sp2","images/sp3","images/sp4"]
+    Skillpath: ["images/sp1.png","images/sp2.png","images/sp3.png","images/sp4.png"]
 };
 
 // Function to change images with a fade effect
