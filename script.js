@@ -30,7 +30,7 @@ window.addEventListener('scroll', () => {
 // Data for the automated loops
 const galleryData = {
     ecomx: ["images/4196.png", "images/4197.png", "images/4198.png", "images/4199.jpg"],
-    nomnom: ["images/4201.jpg", "images/4200.jpg", "images/4202.jpg"],
+    MVox: ["images/", "images/4200.jpg", "images/4202.jpg"],
     godot: ["images/4206.jpg","images/4207.jpg"]
 };
 
