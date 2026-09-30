@@ -30,8 +30,8 @@ window.addEventListener('scroll', () => {
 // Data for the automated loops
 const galleryData = {
     ecomx: ["images/4196.png", "images/4197.png", "images/4198.png", "images/4199.jpg"],
-    MVox: ["images/", "images/4200.jpg", "images/4202.jpg"],
-    godot: ["images/4206.jpg","images/4207.jpg"]
+    MVox: ["images/mvox1.png", "images/mvox2.png", "images/mvox3.png","images/mvox4.png"],
+    Skillpath: ["images/sp1","images/sp2","images/sp3","images/sp4"]
 };
 
 // Function to change images with a fade effect
